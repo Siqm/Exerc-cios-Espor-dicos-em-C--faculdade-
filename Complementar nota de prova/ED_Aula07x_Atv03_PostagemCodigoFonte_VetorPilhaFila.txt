@@ -1,0 +1,47 @@
+ORIENTAÇÕES
+
+Cada aluno deverá escolher APENAS UM dentre os diferentes exercícios abaixo, deverá então fazer sua implementação e postagem do código fonte, atenção ao prazo de entrega.
+
+Todos os exercícios deverão ser desenvolvidos utilizando-se de VETORES, TDAs, TDEs e se preciso PONTEIROS. Cada implementação deverá também conter as boas práticas implicitas como: Inicialização de vetor, verificação de estrutura cheia/vazia (dependente do caso), buscas, contadores, acumuladores, etc.
+
+
+A. VETORES
+Implemente um programa capaz de armazenar 100 alunos, cada aluno deverá conter as seguintes informações: RA, NOME, IDADE, VALOR MENSALIDADE. O programa deverá conter as seguintes opções:
+1. Cadastrar
+2. Pesquisar (RA)
+3. Remover (RA)
+4. Maior idade
+5. Média mensalidade
+6. Número alunos acima e abaixo idade X
+7. Relacao alunos com mensalidade acima da Médida
+
+
+B. PILHAS
+Implemente um programa que seja capaz de empilhar as cartas de um baralho (52 ao total), cada carta deverá conter as seguintes informações: NÚMERO, NAIPE (Considere os números 11, 12 e 13 para Valete, Dama e Reis)
+1. Empilhar *
+2. Desempilhar
+3. Exibir cartas empilhadas **
+4. Maior carta cada naipe ***
+5. Soma por naipe ****
+
+NOTAS
+* Antes de empilhar deve-se verificar se a carta que será empilhada já existe na pilha, caso exista não deverá permtir empilhar, por exemplo, se já existir um 8 de COPAS e tentar empilhar outro, deverá exibir a mensagem "CARTA JÁ EXISTENTE NA PILHA". 
+** Exibir o número e naipe de todas as cartas empilhadas, de cima para baixo.
+*** Deverá exibir o Naipe e o maior número do naipe empilhado (talvez tenha que usar a função strcmp para comparação textual, mas vai depender da lógica que utilizar).  
+**** Deverá exibir o naipe e o valor da soma de suas cartas. 
+
+
+
+C. FILAS
+Implemente um programa que seja capaz de organizar o atendimento até 100 alunos em uma secretaria, cada aluno que chega deverá informar seu RA, NOME, CURSO, ASSUNTO (MATRICULA, FINANCEIRO, PROTOCOLO) e então entrar na fila. O programa deverá conter as seguintes opções:  
+1. Adicionar 
+2. Atender
+3. Imprimir fila
+4. Número alunos por assunto
+5. Assunto com maior número alunos
+
+
+
+
+
+
